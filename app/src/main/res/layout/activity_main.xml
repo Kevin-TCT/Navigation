@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#f2f2f2"
+        android:paddingBottom="3dp"
+        app:menu="@menu/bottom_navigation_menus" />
+    <!--
+        // NOTE: 2018/7/27 app:menu="@menu/bottom_navigation_menus"   BottomNavigationView具体显示的图标信息
+    -->
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation_view"
+        app:defaultNavHost="false"
+        app:navGraph="@navigation/navigation_main" />
+    <!--
+        // NOTE: 2018/7/27 app:defaultNavHost:   true： activity的back事件会委托出去
+        // NOTE: 2018/7/27 app:navGraph="@navigation/navigation_main"    NavHostFragment管理的具体fragment
+    -->
+
+</RelativeLayout>

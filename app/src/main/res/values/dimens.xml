@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        // NOTE: 2018/7/27 BottomNavigationView的图标点击时字体会变大，可以设置点击前和点击后的字体大小
+    -->
+    <!--BottomNavigationView 的选中没有选中的字体大小-->
+    <dimen name="design_bottom_navigation_active_text_size">10sp</dimen>
+    <dimen name="design_bottom_navigation_text_size">10sp</dimen>
+
+    <!--BottomNavigationView 只放图标时的设置-->
+    <!--<dimen name="design_bottom_navigation_active_text_size">0sp</dimen>
+    <dimen name="design_bottom_navigation_text_size">0sp</dimen>-->
+    <dimen name="design_bottom_navigation_margin">10dp</dimen>
+
+</resources>
