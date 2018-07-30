@@ -2,27 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/home"
+        android:id="@+id/homeFragment"
         android:icon="@drawable/home_bar_home_selector"
         android:title="首页" />
 
     <item
-        android:id="@+id/small_video"
+        android:id="@+id/smallvideoFragment"
         android:icon="@drawable/home_bar_small_video_selector"
         android:title="视频" />
 
     <item
-        android:id="@+id/task"
+        android:id="@+id/taskFragment"
         android:icon="@drawable/home_bar_task_selector"
         android:title="活动" />
 
     <item
-        android:id="@+id/subscription"
+        android:id="@+id/subscriptionFragment"
         android:icon="@drawable/home_bar_subscription_selector"
         android:title="订阅" />
 
     <item
-        android:id="@+id/mine"
+        android:id="@+id/mineFragment"
         android:icon="@drawable/home_bar_mine_selector"
         android:title="我的" />
 
