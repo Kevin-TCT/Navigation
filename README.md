@@ -16,5 +16,5 @@ BottomNavigationView + NavHostFragment
 <br/>
 <br/>
 NavigationView原理解析：<br/>
-[NavigationView 原理分析](https://blog.csdn.net/hesong1120/article/details/78288062)
+[NavigationView 原理分析](https://blog.csdn.net/hesong1120/article/details/78288062) <br/>
 [NavigationView 原理分析](https://blog.csdn.net/qq_18983205/article/details/78554634)
