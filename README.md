@@ -12,3 +12,9 @@ BottomNavigationView + NavHostFragment
 [BottomNavigationView官方文档](https://developer.android.google.cn/reference/android/support/design/widget/BottomNavigationView.html)
 <br/>
 [NavHostFragment官方文档](https://developer.android.com/reference/androidx/navigation/fragment/NavHostFragment)
+<br/>
+<br/>
+<br/>
+NavigationView原理解析：<br/>
+[NavigationView 原理分析](https://blog.csdn.net/hesong1120/article/details/78288062)
+[NavigationView 原理分析](https://blog.csdn.net/qq_18983205/article/details/78554634)
